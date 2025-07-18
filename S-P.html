@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <video src="videos/10994876-hd_1080_1920_25fps.mp4" controls autoplay muted loop></video>
+    <header>
+        <nav class="menu">
+            <a href="index.html">home</a>
+            <a href="#topo">Inicio</a>
+            <a href="#meio">Meio</a>
+            <a href="#final">final</a>
+        </nav>
+    </header>
+    <main>
+        <section id="topo">
+            <h1>🎯 Seletores Simples</h1>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Seletor</th>
+                        <th></th>
+                        <th>Descrição</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><code>*</code></td>
+                        <td></td>
+                        <td>Universal. Aplica o estilo a todos os elementos da página.</td>
+                
+                    </tr>
+                    <tr>
+                        <td><code>.class</code></td>
+                        <td></td>
+                        <td>Aplica estilo a todos os elementos que possuem a classe especificada.</td>
+                
+                    </tr>
+                    <tr>
+                        <td><code>#id</code></td>
+                        <td></td>
+                        <td>Aplica estilo a um único elemento que tem o ID especificado.</td>
+                
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section>
+            <h1>🧬 Pseudo-classes</h1>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Seletor</th>
+                        <th></th>
+                        <th>Descrição</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><code>:hover</code></td>
+                        <td></td>
+                        <td> Aplica estilo quando o cursor passa sobre o elemento.</td>
+                
+                    </tr>
+                    <tr>
+                        <td><code>:first-child</code></td>
+                        <td></td>
+                        <td>Seleciona o primeiro filho de um elemento pai.</td>
+                
+                    </tr>
+                    <tr>
+                        <td><code>:last-child</code></td>
+                        <td></td>
+                        <td>Seleciona o último filho de um elemento pai.</td>
+                
+                    </tr>
+                    <tr>
+                        <td><code>:nth-child(n)</code></td>
+                        <td></td>
+                        <td>Seleciona o enésimo filho de um pai, podendo usar fórmulas.</td>
+                
+                    </tr>
+                    <tr>
+                        <td><code>:not(selector)</code></td>
+                        <td></td>
+                        <td>Exclui da seleção os elementos que correspondem ao seletor dentro dos parênteses.</td>
+                
+                    </tr>
+                    <tr>
+                        <td><code>:checked</code></td>
+                        <td></td>
+                        <td>Seleciona elementos do tipo checkbox ou radio que estão marcados.</td>
+                
+                    </tr>
+                    <tr>
+                        <td><code>:Disabled</code> e <code>:enabled</code></td>
+                        <td></td>
+                        <td>Seleciona campos de formulário desativados ou ativados.</td>
+                
+                    </tr>
+                    
+                </tbody>
+            </table>
+        </section>
+
+        <section>
+            <h1>🎨 Pseudo-elementos</h1>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Seletor</th>
+                        <th></th>
+                        <th>Descrição</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><code>::before</code></td>
+                        <td></td>
+                        <td>Adiciona conteúdo antes do elemento.</td>
+                
+                    </tr>
+                    <tr>
+                        <td><code>::after</code></td>
+                        <td></td>
+                        <td>	Adiciona conteúdo depois do elemento.</td>
+                
+                    </tr>
+                    <tr>
+                        <td><code>::first-letter</code></td>
+                        <td></td>
+                        <td>Aplica estilo à primeira letra de um texto.</td>
+                
+                    </tr>
+                    <tr>
+                        <td><code>::first-line</code></td>
+                        <td></td>
+                        <td>Aplica estilo à primeira linha de um parágrafo.</td>
+                
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="meio">
+            <h1>📐 Box Model</h1>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Propriedades</th>
+                        <th></th>
+                        <th>Descrição</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><code>margin</code></td>
+                        <td></td>
+                        <td>Espaço externo ao redor da borda do elemento.</td>
+                    </tr>
+                    <tr>
+                        <td><code>padding</code></td>
+                        <td></td>
+                        <td>Espaço interno entre o conteúdo e a borda do elemento.</td>
+                    </tr>
+                    <tr>
+                        <td><code>border</code></td>
+                        <td></td>
+                        <td>Define a borda ao redor do conteúdo e do padding.</td>
+                    </tr>
+                    <tr>
+                        <td><code>width</code></td>
+                        <td></td>
+                        <td>Define a largura do elemento.</td>
+                    </tr>
+                    <tr>
+                        <td><code>height</code></td>
+                        <td></td>
+                        <td>Define a altura de um elemento.</td>
+                    </tr>
+                    <tr>
+                        <td><code>box-sizing</code></td>
+                        <td></td>
+                        <td>Define como a largura e altura totais são calculadas (incluindo ou não o padding e a borda).</td>
+                    </tr>
+
+                </tbody>
+            </table>
+        </section>
+
+        <section>
+            <h1>🎨 Cores e Estilo de Texto</h1>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Propriedades</th>
+                        <th></th>
+                        <th>Descrição</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><code>color</code></td>
+                        <td></td>
+                        <td>Cor do texto.</td>
+                    </tr>
+                    <tr>
+                        <td><code>line-height</code></td>
+                        <td></td>
+                        <td>Espaçamento entre linhas de texto.</td>
+                    </tr>
+                    <tr>
+                        <td><code>font-size</code></td>
+                        <td></td>
+                        <td>Tamanho da fonte.</td>
+                    </tr>
+                    <tr>
+                        <td><code>font-family</code></td>
+                        <td></td>
+                        <td>Tipo de fonte usada.</td>
+                    </tr>
+                    <tr>
+                        <td><code>text-align</code></td>
+                        <td></td>
+                        <td>Alinhamento horizontal do texto.</td>
+                    </tr>
+                    <tr>
+                        <td><code>font-weight</code></td>
+                        <td></td>
+                        <td>Peso da fonte (negrito, normal, etc).</td>
+                    </tr>
+                    <tr>
+                        <td><code>text-decoration</code></td>
+                        <td></td>
+                        <td> Adiciona ou remove sublinhado, linha sobre o texto, etc.</td>
+                    </tr>
+                    <tr>
+                        <td><code>text-transform</code></td>
+                        <td></td>
+                        <td> Transforma o texto em maiúsculas, minúsculas ou capitalizado..</td>
+                    </tr>
+            </table>
+        </section>
+
+        <section>
+            <h1>📐 Layout e Display</h1>
+            <table><thead>
+                    <tr>
+                        <th>Propriedades</th>
+                        <th></th>
+                        <th>Descrição</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><code>display</code></td>
+                        <td></td>
+                        <td>Define o tipo de exibição do elemento (como bloco, inline, flex, grid, etc).</td>
+                    </tr>
+                    <tr>
+                        <td><code>position</code></td>
+                        <td></td>
+                        <td>Define como o elemento será posicionado (relativo, absoluto, fixo, sticky).</td>
+                    </tr>
+                    <tr>
+                        <td><code>top</code>, <code>left</code>, <code>right</code>, <code>bottom</code></td>
+                        <td></td>
+                        <td>Define o deslocamento do elemento em relação a seu contêiner.</td>
+                    </tr>
+                    <tr>
+                        <td><code>z-index</code></td>
+                        <td></td>
+                        <td>Controla a sobreposição de elementos (qual aparece na frente).</td>
+                    </tr>
+                    <tr>
+                        <td><code>float</code></td>
+                        <td></td>
+                        <td>Faz o elemento "flutuar" à esquerda ou à direita.</td>
+                    </tr>
+                    <tr>
+                        <td><code>clear</code></td>
+                        <td></td>
+                        <td>Controla o comportamento de elementos em relação a elementos flutuantes.</td>
+                    </tr>
+            </table>
+        </section>
+
+        <section>
+            <h1>🧭 Flexbox e Grid</h1>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Propriedades</th>
+                        <th></th>
+                        <th>Descrição</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><code>flex-direction</code></td>
+                        <td></td>
+                        <td>Define a direção principal dos itens (linha ou coluna).</td>
+                    </tr>
+                    <tr>
+                        <td><code>justify-content</code></td>
+                        <td></td>
+                        <td>Alinha os itens no eixo principal (horizontal, por exemplo).</td>
+                    </tr>
+                    <tr>
+                        <td><code>align-items</code></td>
+                        <td></td>
+                        <td>Alinha os itens no eixo cruzado (vertical, por exemplo).</td>
+                    </tr>
+                    <tr>
+                        <td><code>gap</code></td>
+                        <td></td>
+                        <td>Define o espaçamento entre os itens.</td>
+                    </tr>
+                    <tr>
+                        <td><code>grid-area</code></td>
+                        <td></td>
+                        <td>Define a posição de um item dentro do grid.</td>
+                    </tr>
+                    <tr>
+                        <td><code>grid-template-columns</code> e <code>rows</code></td>
+                        <td></td>
+                        <td>Define o tamanho das colunas ou linhas do grid.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="final">
+            <h1>📱 Responsividade</h1>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Propriedades</th>
+                        <th></th>
+                        <th>Descrição</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><code>max-width</code> e  <code>min-width</code></td>
+                        <td></td>
+                        <td>Define limites máximos e mínimos de largura.</td>
+                    </tr>
+                    <tr>
+                        <td><code>min-height</code> e <code>min-height</code></td>
+                        <td></td>
+                        <td>Define limites máximos e mínimos de altura.</td>
+                    </tr>
+                    <tr>
+                        <td><code>overflow</code></td>
+                        <td></td>
+                        <td>Define o que acontece quando o conteúdo ultrapassa os limites (corte, rolagem etc).</td>
+                    </tr>
+                   <tr>
+                        <td><code>media query</code></td>
+                        <td></td>
+                        <td>(<code>@media</code>): Aplica estilos diferentes para tamanhos de tela diferentes.
+
+</td>
+                    </tr>
+            </table>
+        </section>
+
+        <section>
+            <h1>✨ Efeitos e Animações</h1>
+            <table><thead>
+                    <tr>
+                        <th>Propriedades</th>
+                        <th></th>
+                        <th>Descrição</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><code>transition</code></td>
+                        <td></td>
+                        <td>Define a transição suave entre valores de propriedades.</td>
+                    </tr>
+                    <tr>
+                        <td><code>transform</code></td>
+                        <td></td>
+                        <td>Aplica transformações como rotação, escala, translação etc.</td>
+                    </tr>
+                    <tr>
+                        <td><code>animation</code></td>
+                        <td></td>
+                        <td>Define animações com múltiplos quadros.</td>
+                    </tr>
+                    <tr>
+                        <td><code>box-shadow</code></td>
+                        <td></td>
+                        <td>Aplica uma sombra ao redor da caixa do elemento.</td>
+                    </tr>
+                    <tr>
+                        <td><code>opacity</code></td>
+                        <td></td>
+                        <td> Define a opacidade (transparência) do elemento.</td>
+                    </tr>
+                    <tr>
+                        <td><code>filter</code></td>
+                        <td></td>
+                        <td>Aplica efeitos gráficos como desfoque, brilho etc.</td>
+                    </tr>
+            </table>
+        </section>
+
+        <section>
+            <h1>📸 Imagens e Fundo</h1>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Propriedades</th>
+                        <th></th>
+                        <th>Descrição</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><code>background-image</code></td>
+                        <td></td>
+                        <td>Define uma imagem como plano de fundo.</td>
+                    </tr>
+                    <tr>
+                        <td><code>background-size</code></td>
+                        <td></td>
+                        <td>Controla o tamanho da imagem de fundo.</td>
+                    </tr>
+                    <tr>
+                        <td><code>background-position</code></td>
+                        <td></td>
+                        <td>Define a posição da imagem de fundo.</td>
+                    </tr>
+                    <tr>
+                        <td><code>background-repeat</code></td>
+                        <td></td>
+                        <td>Controla a repetição da imagem de fundo.</td>
+                    </tr>
+                    <tr>
+                        <td><code>background-color</code></td>
+                        <td></td>
+                        <td>Define a cor de fundo do elemento.</td>
+                    </tr>
+            </table>
+        </section>
+
+    </main>
+</body>
+</html>

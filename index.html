@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Righteous&display=swap" rel="stylesheet">
+    <title>Todos os Devs</title>
+    <style>
+        *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+html{
+    scroll-behavior: smooth;
+
+}
+
+.menu{
+    background-color: black;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    position: fixed;
+    width: 100%;
+    font-family: Righteous;
+    font-size: larger;
+    font-weight: 600;
+    z-index: 1;
+    
+}
+.menu>a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.menu>a:hover{
+    color: aqua;
+    transition: 0.3s ease;
+}
+.cutive-mono-regular {
+  font-family: "Cutive Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+.parte{
+    padding: 100px 20px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: rgb(0, 4, 255);
+    color: rgb(255, 255, 255);
+    font-family: Cutive Mono, monospace;
+    
+    
+    
+}
+.parte>h1{
+    align-items: center;
+    padding-bottom: 30px;
+}
+.parte>h3{
+    text-align: center;
+    margin: 20px;
+    font-size: larger;
+    font-size: 22px;
+}
+.parte>h2{
+    margin-bottom: 20px;
+    margin-top: 20px;
+    background-image: linear-gradient(to right, rgb(0, 255, 242), rgba(255, 255, 255, 0.014));
+    width: 400px;
+    color: rgb(255, 255, 255);
+    font-size: large;
+    
+}
+
+.itens{
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+.itens>a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: large;
+    padding: 3px;
+}
+.itens>a:hover{
+    color: aqua;
+    transition: 0.3s ease;
+    transform: scale(1.3);
+    
+}
+
+#site{
+    background-color: rgb(227, 241, 253);
+    color: black;
+}
+#site>h1{
+    text-align: center;
+    margin-bottom: 30px;
+    
+    
+}
+
+.listas-de-sites>ul{
+    columns: 3;
+    -webkit-columns: 3;
+    -moz-columns: 3;
+    text-align: center;
+    list-style: none;
+    
+    
+    
+    
+}
+.listas-de-sites>ul>li{
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    
+    
+}
+.listas-de-sites>ul>li>a{
+    text-decoration: none;
+    color: black;
+    
+    
+    
+}
+.listas-de-sites>ul>li>a:hover{
+    background-color: blue;
+    padding: 6px;
+    color: aliceblue;
+    transition: 0.3s ease;
+    border-radius: 6px;
+    
+    
+}
+
+#outro{
+    background-image: url(imagem/404\ Page.jfif);
+    background-repeat: no-repeat;
+    background-color: black;
+    text-align: center;
+    background-position-x: center;
+
+}
+#outro>p{
+    margin: 300px 0;
+    font-size: large;
+    font-weight: 100;
+    
+}
+#outro>p>img{
+    border-radius: 4px;
+    width: 20px;
+}
+
+footer{
+    padding: 100px 20px;
+    text-align: center;
+    background-color: rgb(48, 48, 48);
+    color: white;
+}
+
+
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="menu">
+            <a href="#inicio">Inicio</a>
+            <a href="#site">Sites</a>
+            <a href="#outro">Outros</a>
+        </nav>
+    </header>
+    <main>
+        <section id="inicio" class="parte">
+            <h1>Principais Tags, Palavras-Chaves e Seletores/Propriedades</h1>
+            <h2>TAGS (HTML)</h2>
+            <p>O que são?</p>
+            <p>Tags são blocos básicos do <strong>HTML</strong>, usadas para estruturar o contúdo de um página.</p>
+            <p>Elas são escritas entre sinais de maior e menor <strong>(&lt;&gt;)</strong>, e geralmente vêm em pares: abertura <strong>&lt;tag&gt;</strong> e fechamento <strong>&lt;/tag&gt;</strong>.</p>
+            <p>Exemplo</p>
+            <p>Para que servem?</p>
+            <p>Para dizer ao navegador o tipo de conteúdo que está sendo mostrado (um parágrafo, uma imagem, um link, um botão, etc.).</p>
+
+            <h2>PALAVRAS-CHAVE (JavaScript)</h2>
+            <p>O que são?</p>
+            <p>São palavras reservadas da linguagem de programação JavaScript que têm significados específicos e não podem ser usadas como nomes de variáveis ou funções.</p>
+            <p>Exemplo</p>
+            <p>Para que servem?</p>
+            <p>Para construir a lógica do programa, como declarar variáveis, testar condições, repetir ações, etc.</p>
+
+            <h2>SELETORES (CSS)</h2>
+            <p>O que são?</p>
+            <p>São "ganchos" que o CSS usa para encontrar quais elementos HTML ele deve estilizar.</p>
+            <p>Exemplo</p>
+            <p>Para que servem?</p>
+            <p>Para identificar os elementos HTML que receberão os estilos definidos.</p>
+
+            <h3>Acesse aqui</h3>
+
+
+            <div class="itens">
+                <a href="TAGS.html" >Tags</a>
+                <a href="P-C.html">Palavras-Chaves</a>
+                <a href="S-P.html">Seletores/Propriedades</a>
+            </div>
+
+        </section>
+
+        <section id="site" class="parte">
+            <h1>Sites de Emojis, Caracteres, Fontes e Etc </h1>
+            <div class="listas-de-sites">
+                <ul>
+                    <li><a href="https://www.quackit.com/character_sets/emoji/emoji_v3.0/unicode_emoji_v3.0_characters_smileys_and_people.cfm" target="_blank" rel="noopener noreferrer">Emojis</a></li>
+                    <li><a href="https://fonts.google.com" target="_blank" rel="noopener noreferrer">Fontes</a></li>
+                    <li><a href="https://color.adobe.com/pt/create/color-wheel" target="_blank" rel="noopener noreferrer">Cores</a></li>
+                    <li><a href="https://erikasarti.com/html/acentuacao-caracteres-especiais/" target="_blank" rel="noopener noreferrer">Caracteres</a></li>
+                    <li><a href="https://zzd0.github.io/Testando/" target="_blank" rel="noopener noreferrer">Minha pag de Devs</a></li>
+                    <li><a href="https://www.macoratti.net.hulk.hostazul.com.br/Artigos?page=241" target="_blank" rel="noopener noreferrer">Macorote Artigos</a></li>
+                    <li><a href="https://developer.mozilla.org/en-US/" target="_blank" rel="noopener noreferrer">MDN Web Docs</a></li>
+                    <li><a href="https://www.iana.org/assignments/media-types/media-types.xhtml" target="_blank" rel="noopener noreferrer">Iana Media Types </a></li>
+                    <li><a href="https://icons8.com.br/icons/set/popular-icons--animated" target="_blank" rel="noopener noreferrer">Icones</a></li>
+                    <li><a href="https://pt.wikipedia.org/wiki/Wikipédia:Página_principal" target="_blank" rel="noopener noreferrer">Wikipédia</a></li>
+                    <li><a href="https://www.flaticon.com/br/" target="_blank" rel="noopener noreferrer">flaticon</a></li>
+                    <li><a href="https://html-css-js.com" target="_blank" rel="noopener noreferrer">HTML-CSS-JV</a></li>
+                </ul>
+            </div>
+
+        </section>
+
+        <section id="outro" class="parte">
+           <p>Em estado de desenvolvimento <img src="imagem/icons8-ampulheta.gif" alt=""></p> 
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Lucas Gabriel Gomes Aguiar. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
